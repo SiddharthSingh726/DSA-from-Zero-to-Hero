@@ -69,3 +69,26 @@
 
    NOTE:- we do not have to prove each step of the algorithm.
  */
+
+//-------------------------------------------------------------------------------------------------------------
+
+// 1.6 Why the analysis of Algorithms
+/* Algorithm analysis helps us to determine which algorithm is most efficient in terms of time and space consumed.
+ */
+
+//-------------------------------------------------------------------------------------------------------------
+
+// 1.7 What is Running Time Analysis?
+/* It is the process of determining how processing time increases as the size of the problem (input size) increases.
+   Input size is the number of elements in the input, and depending on the problem type, the input be of different types.
+   1. Size of an array.
+   2. Polynomial degree.
+   3. Number of elements in a matrix.
+   4. Number of bits in the binary representation of the input.
+   5. Vertices and edges in a graph.
+ */
+
+//-------------------------------------------------------------------------------------------------------------
+/* 1.8
+
+ */
