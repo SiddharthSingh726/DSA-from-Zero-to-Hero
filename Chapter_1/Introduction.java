@@ -89,6 +89,19 @@
  */
 
 //-------------------------------------------------------------------------------------------------------------
-/* 1.8
-   Array have to be done
+
+// 1.8 How to Compare Algorithms
+/* We express the running time of a given algorithm as a function of the input size n (i.e, f(n)) and compare these
+   different functions corresponding to running times. This kind of comparison is independent of machine time, programming style, etc.
+ */
+
+//-------------------------------------------------------------------------------------------------------------
+
+// 1.9 What is Rate of Growth?
+/* The rate at which the running time increases as a function of input is called rate of growth. Let us assume that you go
+   to a shop to buy a car and a bicycle. If your friend sees you there and asks what you are buying, then in general you say
+   buying a car. This is because the cost of the car is high compared to the cost of the bicycle (approximating the cost of
+   the bicycle to the cost of the car).
+             Total Cost = cost_of_car + cost_of_bicycle
+             Total Cost approximation = cost_of_car 
  */
