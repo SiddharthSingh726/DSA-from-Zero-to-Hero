@@ -105,3 +105,21 @@
              Total Cost = cost_of_car + cost_of_bicycle
              Total Cost approximation = cost_of_car
  */
+
+//-------------------------------------------------------------------------------------------------------------
+
+// 1.9 Commonly Used Rates of Growth
+/*   Time Complexity        Name                      Description
+          1               Constant     Whatever is the input size n, thses functions take a constant amount of time.
+        log n            Logarithmic   These are slower growing than even linear functions.
+          n               Linear       These functions growing linearly with the input size n.
+      n log n       Linear Logarithmic Faster growing than linear but slower than quadratic.
+         n^2             Quadratic     These functions grow faster than the linear logarithmic functions.
+         n^3              Cubic        Faster growing than quadratic but slower than exponential.
+         2^n            Exponential    Faster than all the functions mentioned here except the factorial functions.
+         n!              Factorial     Faster growing than all these functions mentioned here.
+
+    2^2n > n! > 4^n > 2^n > n^2 > n log n > log(n!) > n > 2^logn > log^2 n > square root of log n > log log n > 1
+ */
+
+//-------------------------------------------------------------------------------------------------------------
