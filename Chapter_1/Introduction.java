@@ -103,5 +103,5 @@
    buying a car. This is because the cost of the car is high compared to the cost of the bicycle (approximating the cost of
    the bicycle to the cost of the car).
              Total Cost = cost_of_car + cost_of_bicycle
-             Total Cost approximation = cost_of_car 
+             Total Cost approximation = cost_of_car
  */
