@@ -124,6 +124,29 @@
 
 //-------------------------------------------------------------------------------------------------------------
 
-/* 1.10 Types of Analysis
+// 1.10 Types of Analysis
+/* To analyze the given algorithm, we need to know with which inputs the algorithm takes less time (performing well) and with
+   which inputs the algorithm takes a long time. We have already seen that an algorithm can be represented in the form of an
+   expression. That means we represent the algorithm with multiple expressions: one for the case where it takes less time and
+   another for the case where it takes more time.
+
+   The first case is called the best case and the second case is called the worst case for the algorithm. To analyze an algorithm
+   we need some kind of syntax, and that forms the base for asymptotic analysis/notation. There are three types of analysis:
+
+   a. Worst case
+    * Defines the input for which the algorithm takes a long time (slowest time to complete).
+    * Input is the one for which the algorithm runs the slowest.
+
+   b. Best case
+    * Defines the input for which the algorithm takes the least time (faster time ti complete).
+    * Input is the one for which the algorithm runs the fastest.
+
+   c. Average case
+    * Provides a prediction about the running time of the algorithm.
+    * Run the algorithm many times, using many different inputs that come from some distribution that generates these inputs,
+      compute the total running time (by adding the individual times), and divide by the number of trials.
+    * Assumes that the input iss random.
+
+                     Lower Bound <= Average Time <= Upper Bound
 
  */
