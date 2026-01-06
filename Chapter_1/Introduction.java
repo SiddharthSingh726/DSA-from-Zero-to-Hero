@@ -150,3 +150,21 @@
                                  Lower Bound <= Average Time <= Upper Bound
 
  */
+
+//-------------------------------------------------------------------------------------------------------------
+
+// Big-O Notation
+/* This notation gives the tight upper bound of the given function. Generally, it is represented as f(n) = O(g(n)).
+   That means, at larger values of n, the upper bound of f(n) is g(n). For example, if f(n)=n^4 + 100n^2 + 10n + 50
+   is the given algorithm, then n^4 is g(n). That means g(n) gives the maximum rate of growth for f(n) at larger values of n.
+
+   a. Ignore the coefficient and largest constant.
+   b. Just focus on function n
+
+   Big O Notation --> The maximum numbers of step the algorithm might take, no matter what input is given.
+   Worst Case --> The actual input that causes the algorithm to take the longest possible time.
+ */
+
+//-------------------------------------------------------------------------------------------------------------
+
+// Omega Notation [Lower Bounding Function]
