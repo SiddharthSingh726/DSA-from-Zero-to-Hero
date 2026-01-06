@@ -145,8 +145,8 @@
     * Provides a prediction about the running time of the algorithm.
     * Run the algorithm many times, using many different inputs that come from some distribution that generates these inputs,
       compute the total running time (by adding the individual times), and divide by the number of trials.
-    * Assumes that the input iss random.
+    * Assumes that the input is random.
 
-                     Lower Bound <= Average Time <= Upper Bound
+                                 Lower Bound <= Average Time <= Upper Bound
 
  */
