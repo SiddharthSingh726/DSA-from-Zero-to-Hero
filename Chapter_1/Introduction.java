@@ -153,7 +153,7 @@
 
 //-------------------------------------------------------------------------------------------------------------
 
-// Big-O Notation
+// 1.11 Big-O Notation
 /* This notation gives the tight upper bound of the given function. Generally, it is represented as f(n) = O(g(n)).
    That means, at larger values of n, the upper bound of f(n) is g(n). For example, if f(n)=n^4 + 100n^2 + 10n + 50
    is the given algorithm, then n^4 is g(n). That means g(n) gives the maximum rate of growth for f(n) at larger values of n.
@@ -167,4 +167,41 @@
 
 //-------------------------------------------------------------------------------------------------------------
 
-// Omega Notation [Lower Bounding Function]
+// 1.12 Omega Notation [Lower Bounding Function]
+/* Similar to the O discussion, this notation gives the tight lower bound of the given algorithm and we represent as f(n) = Omega(g(n)).
+   That means at largest values of n , the tighter lower of f(n) is g(n). For example if f(n) = 100n^2 + 10n +50, g(n) is omega(n^2).
+ */
+
+//-------------------------------------------------------------------------------------------------------------
+
+// 1.13 Theta Notation
+/* This notation decides where the upper and lower bound of a given function(algorithm) are same. The average running time of an
+   algorithm is always between the lower bound and the upper bound. If the upper and lower bound given the same result than the
+   theta notion will also have the same rate of growth. As an example, let us assume that f(n) = 1.n+n is the expression. Then
+   its tight upper bound g(n) is O(n). The rate of growth in the best case is g(n) = O(n).
+ */
+
+//-------------------------------------------------------------------------------------------------------------
+
+// 1.14 Important Notes
+/* For the analysis (best case,worst case and average), we try to give the upper bound (O)and lower bound(omega) and average running
+   time (Theta). From the above examples, it should also be clear that, for a given function (algorithm), getting the upper bound(O)
+   and lower bound (omega) and average time (theta) may not always be possible. For example, if we are discussing the best case
+   of an algorithm we try to give the upper bound (O) and lower bound (omega) and average time(theta).
+
+   In the remaining chapter we generally focus on the upper bound (O) because knowing the lower bound (Omega) of an algorithm is of
+   no practical importance, and we use the theta notation if the upper bound(O) abd lower bound(omega) are the same.
+ */
+
+//-------------------------------------------------------------------------------------------------------------
+
+// 1.15 Wht is it called Asymptotic Analysis?
+/* From the discussion above (for all three notations: worst case, best case and average case), we can easily understand that in
+   every case for a given function f(n) we are trying to find another function g(n) which approximates f(n) at higher values of n.
+   That means g(n) is also a curve which approximates f(n) at higher values of n.
+
+   In mathematics we call such a curves an asymptotic curves. In order terms, g(n) is the asymptotic curve for f(n). For this reason
+   we call algorithm analysis asymptotic analysis.
+ */
+
+//-------------------------------------------------------------------------------------------------------------
