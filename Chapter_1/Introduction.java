@@ -274,5 +274,5 @@
              Another example: binary search (finding a word in a dictionary of n pages)
              a. Look at the center point in the dictionary
              b. Is the word towards the left or right of center?
-             c. Repeat the process with the left or right part of the dictionary until the word is found. 
+             c. Repeat the process with the left or right part of the dictionary until the word is found.
  */
