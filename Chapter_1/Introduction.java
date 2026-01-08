@@ -205,3 +205,13 @@
  */
 
 //-------------------------------------------------------------------------------------------------------------
+
+// 1.16 GuideLines for Asymptotic Analysis
+/* There are some general rules to help us determine the running time of an algorithm.
+   a. LOOPS :- The running time of a loop is, at most, the running time of the statements inside the loop (including tests)
+      multiplied by the number of iterations.
+      // execute n times
+      for(i=1;i<=n;i++)
+          m = m + 2; // constant time, c
+       Total time = a constant c * n = cn = O(n).
+ */
