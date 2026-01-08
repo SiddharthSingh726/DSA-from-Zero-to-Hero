@@ -214,4 +214,65 @@
       for(i=1;i<=n;i++)
           m = m + 2; // constant time, c
        Total time = a constant c * n = cn = O(n).
+
+    b. Nested Loops :- Analyze from the inside out. Total running time is the product of the sizes of all the loops.
+       // Outer Loop executed n times
+       for(for i=1; i<=n; i++){
+                 // inner loop executed n times
+                 for(j=1; j<=n; j++)
+                         k = k+1; //constant time
+       }
+       Total time = c * n * n = cn^2 = O(n^2).
+
+     c. Consecutive statements :- Add the time complexities of each statement.
+        x = x + 1; //constant  time
+        // executed n times
+        for(i=1; i<=n; i++){
+                 m = m + 2; //constant time
+        // outer loop executed n times
+        for(i=1; i<=n; i++){
+              //inner loop executed n times
+              for(j=1; j<=n; j++)
+                       k = k+1; //constant time
+         }
+         Total time = c0 + c1n + c2n^2 = O(n^2).
+
+       d. If-then-else statements :- Worst-case running time: the test, plus either hte then part or the else part (whichever is
+          the larger).
+          // test: constant
+          if(length() == 0){
+                return false; // then part: constant
+          }
+          else { // else part: (constant + constant) * n
+                 for (int n = 0; n< length(); n++) {
+                         // another if : constant + constant (no else part)
+                         if(!list[n].equals(otherList.list[n]))
+                                     //constant
+                                     return false;
+                          }
+           }
+           Total time = c0 + (c1 + c2) * n = O(n).
+
+         e. Logarithmic complexity :- An algorithm is O(logn) if it takes a constant time to cut the peoblem size by a fraction
+            (usually by 1/2). As an example let us consider the following program:
+
+            for(i=1; i<=n;)
+                 i = i*2;
+
+            If we observe carefully, the value of i is doubling every time. Initially i = 1, in next step i =2, and in subsequent
+            steps i = 4,8 and so on. Let us assume that the loop is executing some k times. At kth step 2k = n, and at
+               log(2k) = logn
+               klog2 = logn
+               k = logn   // if we assume base-2
+            Total time = O(logn).
+
+            Note: Similarly, for the case below, the worst casce rate of growth is O(logn). The same discussion holds good for
+            the decreasing sequence as well.
+                for(i=n; i>=1;)
+                      i = i/2;
+
+             Another example: binary search (finding a word in a dictionary of n pages)
+             a. Look at the center point in the dictionary
+             b. Is the word towards the left or right of center?
+             c. Repeat the process with the left or right part of the dictionary until the word is found. 
  */
