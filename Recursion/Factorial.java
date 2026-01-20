@@ -3,8 +3,8 @@ package Recursion;
 public class Factorial {
 
     int factorial1(int n) {
-        if (n == 0 || n == 1)
-            return 1;
+        if (n == 0 || n == 1) // test for base case
+            return 1; // base case
         return n * factorial1(n - 1);
     }
 
